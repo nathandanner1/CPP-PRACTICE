@@ -11,6 +11,8 @@ int main()
 	cout << "Oh, so your name is " << a << ", I see. " << endl;
 	cout << "Hello there " << a << ", welcome to the game" << endl;
 
-	system("pause");
+	cin.ignore(256, '\n');
+	cin.get();
+	return 0;
 
 }
